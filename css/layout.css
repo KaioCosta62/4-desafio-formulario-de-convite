@@ -1,0 +1,33 @@
+#app{
+    display: grid;
+    grid-template-columns: 31.25% 68.75%;
+    gap: 20px;
+    overflow: hidden;
+
+    aside{
+        padding: 2rem 2rem 1.25rem 2rem;
+        h1{
+            font: var(--logo);
+            color: var(--pink);
+            margin-top: 1rem;
+            margin-bottom: 0.25rem;
+        }
+        p{
+            font: var(--body-md);
+            color: var(--text-heading);
+        }
+        .bg{
+            margin-top: 4rem;
+        }
+    }
+
+    main{
+        margin: 20px;
+        background-color: var(--shape-body);
+        border-radius: 12px;
+        .main-container{
+            padding: 5rem 8.125rem;
+        }
+    }
+
+}
