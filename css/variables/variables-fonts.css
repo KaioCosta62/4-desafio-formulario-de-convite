@@ -1,0 +1,14 @@
+:root{
+    --leckerli: 'Leckerli One', sans-serif;
+    --baloo: 'Baloo 2', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+
+    --logo: 400 2.5rem var(--leckerli);
+
+    --heading-md: 800 1.75rem var(--baloo);
+    --heading-sm: 800 1.125rem var(--baloo);
+
+    --body-md: 600 1rem var(--open-sans);
+    --body-sm: 600 0.875rem var(--open-sans);
+    --body-xs: 600 0.75rem var(--open-sans);
+}
