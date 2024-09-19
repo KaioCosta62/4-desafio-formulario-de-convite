@@ -12,7 +12,7 @@
         align-items: center;
         background-color: var(--shape-button);
         cursor: pointer;
-        &:active{
+        &:focus{
             border: 2px solid var(--brand-light);
         }
         .circle-color{
