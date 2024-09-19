@@ -1,8 +1,14 @@
 @import url('fieldset.css');
-
+@import url('legend.css');
+@import url('input.css');
+@import url('primaryColor.css');
 form{
     h1{
         font: var(--heading-md);
         margin-bottom: 2.5rem;
+    }
+    label{
+        color: var(--text-body);
+        font: var(--body-sm);
     }
 }

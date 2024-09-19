@@ -23,6 +23,96 @@
             <div class="main-container">
                <form action="">
                   <h1>Crie seu convite</h1>
+                  <fieldset class="about-event">
+                    <legend class="description-fieldset">
+                        <img src="./assets/icons/calendar.svg" alt="Icone de calendário">
+                        <span>Sobre o evento</span>
+                    </legend>
+                    <div class="input-wrapper">
+                        <label for="titulo">Título</label>
+                        <input type="text" name="" id="" placeholder="Nome do evento">
+                    </div>
+                    <div class="input-wrapper flex">
+                        <div class="input">
+                            <label for="inicio">Inicio</label>
+                            <input type="datetime-local" id="inicio">
+                        </div>
+                        <div class="input">
+                            <label for="fim">Fim</label>
+                            <input type="datetime-local" id="fim">
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper grid-types">
+                        <div class="type">
+                            <label for="">Tipo</label>
+                            <div class="type-options-container">
+                                <div>
+                                    <img src="./assets/icons/calendar.svg" alt="Icone de calendário">
+                                    <label for="calendar">Calendário</label>
+                                    <input type="radio" name="options-events" id="calendar">
+                                </div>
+                                <div>
+                                    
+                                    <img src="./assets/icons/online.svg" alt="Icone de uma camera">
+                                    <label for="online">Online</label>
+                                    <input type="radio" name="options-events" id="online">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="local">
+                            <label for="local">Local</label>
+                            <input type="text" name="" id="local" placeholder="Link ou endereço">
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="description">Descrição</label>
+                        <textarea name="" id="description" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                    </div>
+                  </fieldset>
+                  <fieldset class="personalization-colors">
+                    <legend class="description-fieldset">
+                        <img src="./assets/icons/paintbrush.svg" alt="Icone de calendário">
+                        <span>Personalização</span>
+                    </legend>
+                    <span>Cor principal</span>
+                    <div class="buttons-colors">
+                        <button type="button">
+                            <span class="circle-color brand-light"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color navy"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color purple"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color fuschia"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color pink"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color danger"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color orange"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color yellow"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color lime"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color green"></span>
+                        </button>
+                        <button  type="button">
+                            <span class="circle-color cyan"></span>
+                        </button>
+                    </div>
+                  </fieldset>
                </form>
             </div>
         </main>

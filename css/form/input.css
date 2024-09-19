@@ -1,0 +1,94 @@
+
+.input-wrapper {
+   & + .input-wrapper{
+        margin-top: 1rem;
+   }
+
+   &.flex{
+     display: flex;
+     gap: 1rem;
+     .input{
+        width: 50%;
+     }
+   }
+
+   &.grid-types{
+ 
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    .type-options-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        img{
+            width: 1rem;
+        }
+        > div{
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            gap: 1rem;
+            border-radius: 8px;
+            background-color: var(--input-base);
+            border: 1px solid transparent;
+            margin-top: 1rem;
+            &:has(:checked){
+                background-color: var(--input-stroke);
+            }
+            &:hover, &:focus-within{
+               border-color: var(--brand-light);
+            }
+        }
+        input{
+            all: unset;
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+        }
+    }
+    & .local{
+        margin-top: 1rem;
+    }
+   }
+}
+
+input{
+    width: 100%;
+    margin-top: 0.75rem;
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+    background-color: var(--input-base);
+    padding: 0.8125rem 1rem;
+    font: var(--body-md);
+    color: var(--input-placeholder);
+    &:hover, &:focus{
+        color: var(--text-heading);
+        border-color: var(--brand-light);
+        outline: var(--brand-light);
+    }
+
+    &[type='datetime-local']{
+        text-transform: uppercase;
+    }
+
+}
+
+textarea{
+    width: 100%;
+    height: 8.5rem;
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    margin-top: 0.75rem;
+    border-radius: 8px;
+    resize: none;
+    font: var(--body-md);
+    color: var(--input-placeholder);
+    padding: 1rem;
+    &:hover, &:focus{
+        color: var(--text-heading);
+        border-color: var(--brand-light);
+        outline: var(--brand-light);
+    }
+}

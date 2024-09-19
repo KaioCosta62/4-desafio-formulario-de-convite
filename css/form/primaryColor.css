@@ -1,0 +1,25 @@
+.buttons-colors{
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--shape-button);
+        cursor: pointer;
+        &:active{
+            border: 2px solid var(--brand-light);
+        }
+        .circle-color{
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: block;
+        }
+    }
+}
