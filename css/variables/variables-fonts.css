@@ -10,5 +10,6 @@
 
     --body-md: 600 1rem var(--open-sans);
     --body-sm: 600 0.875rem var(--open-sans);
+    --body-sm-regular: 400  0.875rem var(--open-sans);
     --body-xs: 600 0.75rem var(--open-sans);
 }

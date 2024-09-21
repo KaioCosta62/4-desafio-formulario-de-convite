@@ -2,6 +2,8 @@
 @import url('legend.css');
 @import url('input.css');
 @import url('primaryColor.css');
+@import url('themeEvents.css');
+
 form{
     h1{
         font: var(--heading-md);
