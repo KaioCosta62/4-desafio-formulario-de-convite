@@ -21,6 +21,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-content: center;
+        gap: 1rem;
         img{
             width: 1rem;
         }

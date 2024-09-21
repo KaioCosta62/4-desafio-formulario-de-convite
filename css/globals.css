@@ -13,6 +13,19 @@ body{
     color: var(--text-heading);
 }
 
+button[type='submit']{
+    all: unset;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: auto;
+    margin-top: 3rem;
+    background-color: var(--brand-dark);
+    padding: .81rem 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 label{
     display: block;
 }
