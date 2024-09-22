@@ -73,6 +73,10 @@ input{
     &[type='datetime-local']{
         text-transform: uppercase;
     }
+    &:invalid,
+    &:invalid {
+        border: 2px solid var(--danger);
+    }
 
 }
 

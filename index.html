@@ -30,16 +30,28 @@
                     </legend>
                     <div class="input-wrapper">
                         <label for="titulo">Título</label>
-                        <input type="text" name="" id="" placeholder="Nome do evento">
+                        <input type="text" name="" id="" placeholder="Nome do evento" required>
+                        <div class="error">
+                            <img src="./assets/icons/circle-alert.svg" alt="">
+                            <span>Preencha corretamente o campo!</span>
+                        </div>
                     </div>
                     <div class="input-wrapper flex">
                         <div class="input">
                             <label for="inicio">Inicio</label>
-                            <input type="datetime-local" id="inicio">
+                            <input type="datetime-local" id="inicio" required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="">
+                                <span>Preencha corretamente o campo!</span>
+                            </div>
                         </div>
                         <div class="input">
                             <label for="fim">Fim</label>
-                            <input type="datetime-local" id="fim">
+                            <input type="datetime-local" id="fim" required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="">
+                                <span>Preencha corretamente o campo!</span>
+                            </div>
                         </div>
                     </div>
 
@@ -50,25 +62,29 @@
                                 <div>
                                     <img src="./assets/icons/calendar.svg" alt="Icone de calendário">
                                     <label for="calendar">Calendário</label>
-                                    <input type="radio" name="options-events" id="calendar">
+                                    <input type="radio" name="options-events" id="calendar" required>
                                 </div>
                                 <div>
                                     
                                     <img src="./assets/icons/online.svg" alt="Icone de uma camera">
                                     <label for="online">Online</label>
-                                    <input type="radio" name="options-events" id="online">
+                                    <input type="radio" name="options-events" id="online" required>
                                 </div>
                             </div>
                         </div>
                         <div class="local">
                             <label for="local">Local</label>
-                            <input type="text" name="" id="local" placeholder="Link ou endereço">
+                            <input type="text" name="" id="local" placeholder="Link ou endereço" required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="">
+                                <span>Preencha corretamente o campo!</span>
+                            </div>
                         </div>
                     </div>
 
                     <div class="input-wrapper">
                         <label for="description">Descrição</label>
-                        <textarea name="" id="description" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                        <textarea name="" id="description" placeholder="Escreva sobre os detalhes do evento" ></textarea>
                     </div>
                   </fieldset>
                   <fieldset class="personalization-colors">
@@ -180,7 +196,7 @@
                             <span>Foto de capa</span>
                             <div class="upload-file">
                                 <div>
-                                    <input type="file" placeholder="oi">
+                                    <input type="file" placeholder="oi" >
                                     <img src="./assets/icons/upload.svg" alt="">
                                     <span>Selecionar</span>
                                 </div>
@@ -195,16 +211,28 @@
                     </legend>
                     <div>
                         <label for="name">Nome</label>
-                        <input type="text" name="name" id="name" placeholder="Nome completo">
+                        <input type="text" name="name" id="name" placeholder="Nome completo" required> 
+                        <div class="error">
+                            <img src="./assets/icons/circle-alert.svg" alt="">
+                            <span>Preencha corretamente o campo!</span>
+                        </div>
                     </div>
                     <div class="input-wrapper flex" style="margin-top: 1rem;">
                         <div class="input">
                             <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="exemplo@email.com">
+                            <input type="email" id="email" placeholder="exemplo@email.com" required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="">
+                                <span>Preencha corretamente o campo!</span>
+                            </div>
                         </div>
                         <div class="input">
                             <label for="te">Telefone</label>
-                            <input type="tel" id="tel" placeholder="(99) 99999-9999 ">
+                            <input type="tel" id="tel" placeholder="(99) 99999-9999 " required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="">
+                                <span>Preencha corretamente o campo!</span>
+                            </div>
                         </div>
                     </div>
                   </fieldset>
@@ -212,20 +240,20 @@
                     <div class="terms">
                         <div>
                             <div class="input-customized">
-                                <input type="checkbox" name="" id="accept-terms">
+                                <input type="checkbox" name="" id="accept-terms" required>
                             </div>
                            
                             <label for="accept-terms">Li e concordo com os Termos e Condições e com a Política de Privacidade</label>
                         </div>
                         <div>
                             <div class="input-customized">
-                                <input type="checkbox" name="" id="email-updates">
+                                <input type="checkbox" name="" id="email-updates" required>
                             </div>
                             <label for="email-updates">Aceito receber atualizações e promoções por e-mail</label>
                         </div>
                         <div>
                             <div class="input-customized">
-                                <input type="checkbox" name="" id="sms-updates">
+                                <input type="checkbox" name="" id="sms-updates" required>
                             </div>
                             <label for="sms-updates">Aceito receber atualizações e promoções por SMS</label>
                         </div>
